@@ -16,6 +16,8 @@ The law of good gestalt explains that elements of objects tend to be perceptuall
 
 > The birth of {d}ali will be grounded on the undertsanding of the purest expression of primitive visual artifacts: circles, triangles and squares. 
 
+---
+
 ### Coding Principles
 
 #### Module One
@@ -37,6 +39,8 @@ The objective of this module is to **eliminate complexity and unfamiliarity** so
 The objective of this module is an attempt to understand the laws behind the ability to **acquire and maintain meaningful perceptions** in an apparently chaotic world. Based on the input from Module One and Module Two, this third module should decrease the effort of the perception of simplicity in the midst of the compositions of several and diverse objects and increase the ability to recognize order.  
 
 > For now, this module it's based on the horizontal stack of the vertical stack of similar shape groups, which is pretty much immature. I welcome the work there is to be done, time and time again. 
+
+---
 
 ### Instalation
 
@@ -114,11 +118,15 @@ $ git checkout 3.3.0
 
 Please be aware of the lastest version, on the [oficial site](https://github.com/opencv/opencv_contrib/releases).
 
+---
+
 ### Running {d}ali
 
 ```
 $ python3 main.py
 ```
+
+---
 
 #### Acknowledgements
 
