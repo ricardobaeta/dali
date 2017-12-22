@@ -113,7 +113,6 @@ min_shape_composition = sorted( [(np.sum(i.size), i.size ) for i in imgs_composi
 # here I'm doing a horizontal stacking composition in its simple way, using hstack
 imgs_comb_composition = np.hstack( (np.asarray( i.resize(min_shape_composition) ) for i in imgs_composition ) )
 
-# MODULE FOUR
 # here I'm saving the horizontal composition of the triangle, circle vertical compositions and square vertical composition
 imgs_comb_composition = PIL.Image.fromarray( imgs_comb_composition)
 imgs_comb_composition.save( 'composition.png', 'PNG' )
