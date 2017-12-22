@@ -12,7 +12,7 @@ The law of proximity states that when an individual perceives an assortment of o
 
 The law of similarity states that elements within an assortment of objects are perceptually grouped together if they are **similar to each other**. For now we'll only be addressing when perception occurs in the form of **shape**.
 
-The law of good gestalt explains that elements of objects tend to be perceptually grouped together if they form a pattern that is regular, simple, and orderly. For now we'll only be adressing this perception on a **horizozntal stack** of the **vertical stack** composition.
+The law of good gestalt explains that elements of objects tend to be perceptually grouped together if they form a pattern that is regular, simple, and orderly. For now we'll only be adressing this perception on a **horizontal stack** of the **vertical stack** composition.
 
 > The birth of {d}ali will be grounded on the undertsanding of the purest expression of primitive visual artifacts: circles, triangles and squares. 
 
