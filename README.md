@@ -70,7 +70,7 @@ To install or upgrade pip, download get-pip.py from the [oficial site](https://p
 $ python3 get-pip.py --user 
 ```
 
-The next step is to install Pipenv, so you can install dependencies and manage virtual environments. Read the [Pipenv & Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)docs. 
+The next step is to install Pipenv, so you can install dependencies and manage virtual environments. Read the [Pipenv & Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref) docs. 
 
 ```
 $ python3 -m pipenv
