@@ -2,7 +2,7 @@
 
 ### Understanding and applying Gestalt Laws of Perceptual Organization
 
-![{d}ali](images/{d}ali.png)
+![{d}ali](assets/{d}ali.png)
 
 ### Vision for Release 1.0
 

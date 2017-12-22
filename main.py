@@ -19,30 +19,21 @@ import numpy as np
 # MODULE ONE
 # here we lazily find all circle images from images folder by its name
 # here i would like to further improve and have a way for the program to analyse the images, recognize its circle shape and group them
-for circles in sorted(glob.glob('images/circle*')):
-	# here I want to manipulate this result so it can be the input for "list_circles" (not hardcoded  as it is now)
-	# here it's important for the program to recognize image's shape and group their paths
-	all_circles = circles
+all_circles = list(sorted(glob.glob('images/circle*')))
 
 # here we lazily find all triangle images from images folder by its name
-# i would like to further improve and have a way for the program to analyse the images, recognize its triangle shape and group them
-for triangles in sorted(glob.glob('images/triangle*')):
-	# here I want to manipulate this result so it can be the input for "list_triangles" (not hardcoded as it is now)
-	# here it's important for the program to recognize image's shape and group their paths
-	all_triangles = triangles
+# here i would like to further improve and have a way for the program to analyse the images, recognize its triangle shape and group them
+all_triangles = list(sorted(glob.glob('images/triangle*')))
 
 # here we lazily find all square images from images folder by its name
 # i would like to further improve and have a way for the program to analyse the images, recognize its square shape and group them
-for squares in sorted(glob.glob('images/square*')):
-	# here I want to manipulate this result so it can be the input for "list_sqaures (not hardcoded as it is now)
-	# here it's important for the program to recognize image's shape and group their paths
-	all_squares = squares	
+all_squares = list(sorted(glob.glob('images/square*')))
 
 # MODULE TWO
 # here is the circles images composition, really lazily though
 # here I would like for the program to retreive all recognized circle images paths
 # the main objective is to group similar shapes and create an image composition with a vertical alignment
-list_circles = ['images/circle-one.png', 'images/circle-two.png']
+list_circles = all_circles
 imgs_circles = [ PIL.Image.open(i) for i in list_circles ]
 
 # here I pick the image which is the smallest, and resize the others to match it
@@ -63,7 +54,7 @@ if circle_compostion_file.is_file():
 # here is the triangles images composition, really lazily though
 # here I would like for the program to retreive all recognized triangle images paths
 # the main objective is to group similar shapes and create an image composition with a vertical alignment
-list_triangles = ['images/triangle-one.png', 'images/triangle-two.png']
+list_triangles = all_triangles
 imgs_triangles = [ PIL.Image.open(i) for i in list_triangles ]
 
 # here I pick the image which is the smallest, and resize the others to match it
@@ -84,7 +75,7 @@ if triangle_compostion_file.is_file():
 # here is the squares images composition, really lazily though
 # here I would like for the program to retreive all recognized quare images paths
 # the main objective is to group similar shapes and create an image composition with a vertical alignment
-list_squares = ['images/square-one.png', 'images/square-two.png']
+list_squares = all_squares
 imgs_squares = [ PIL.Image.open(i) for i in list_squares ]
 
 # here I pick the image which is the smallest, and resize the others to match it
