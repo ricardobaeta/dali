@@ -1,11 +1,11 @@
+#
+#
 # {d}ali
 #
 # Understanding and applying Gestalt Laws of Perceptual Organization
 #
 #
-#
-#
-# importing "things" (at this point I maybe importing things I dont need)
+# importing "things" (at this point I maybe importing "things" I dont need)
 from PIL import Image
 from PIL import ImageOps
 import glob
