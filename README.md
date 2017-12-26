@@ -42,7 +42,7 @@ The objective of this module is an attempt to understand the laws behind the abi
 
 ---
 
-### Instalation
+### Installation
 
 > This is a pretty straightforward setup, and I'll do my best to keep it as simple as possible on the following releases.
 
