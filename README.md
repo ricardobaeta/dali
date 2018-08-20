@@ -4,7 +4,7 @@
 
 ![{d}ali](assets/{d}ali.png)
 
-### Vision for Release 1.0
+### Vision for Release 1.1
 
 The objective for this release is to address the fundamental principle of Gestalt Laws of Perception - the law of Prägnanz - focusing on understanding and applying the Laws of **Proximity**, **Similarity** and **Good Gestalt**.
 
@@ -26,7 +26,7 @@ The objective of this module is to **analyse**, **recognize**, and **group** sim
 
 The Analysis, ideally, would benefit from having a dataset of simple geometric shapes, for the analysis to be streamlined. This analysis will only have a structured output if the input itself is structured as well, therefore people will be able to input as many and diverse simple geometric shapes as they want. The Recognition, ideally, would benefit from the dataset analysis output, and would help to start creating some meta-information about each object. Hard data, easy solutions. The grouping, ideally, would be a comprehensive data composition, strong enough to feed Module Two. This is not aesthetics.
 
-> For now, this module it's based on the name of the file, which is pretty much immature. I welcome the work there is to be done, time and time again.
+For this release, I'm getting the geometric shapes with an adaptation of [OpenCV shape detection](https://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/). It's a marvelous work done by [Adrian Rosebrock](@PyImageSearch) from [PyImageSearch](https://www.pyimagesearch.com/). It's miles ahead from the method used on the previous release, nevertheless I welcome the work there is to be done, time and time again, to get it better.
 
 #### Module Two
 
@@ -117,6 +117,12 @@ $ git checkout 3.3.0
 ```
 
 Please be aware of the lastest version, on the [oficial site](https://github.com/opencv/opencv_contrib/releases).
+
+6) Install imutils
+
+```
+$ pip install imutils
+```
 
 ---
 
