@@ -85,7 +85,7 @@ def recognize_shape_count_and_list(image):
     # Find contours in the thresholded image
     cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
         cv2.CHAIN_APPROX_SIMPLE)
-    cnts = cnts[0] if imutils.is_cv2() else cnts[1]
+    cnts = cnts[0]
 
     # Now we want to start to run the analysis over all the images inside the images directory.   
 
@@ -155,11 +155,11 @@ min_shape_triangles = sorted( [(np.sum(i.size), i.size ) for i in imgs_triangles
 min_shape_squares = sorted( [(np.sum(i.size), i.size ) for i in imgs_squares])[0][1]
 
 # Here I'm doing the vertical stacking composition of each idential shape in its simple way, using vstack.
-imgs_comb_circles = np.vstack( (np.asarray( i.resize(min_shape_circles) ) for i in imgs_circles ) )
+imgs_comb_circles = np.vstack( tuple(np.asarray( i.resize(min_shape_circles) ) for i in imgs_circles ) )
 imgs_comb_circles = PIL.Image.fromarray( imgs_comb_circles )
-imgs_comb_triangles = np.vstack( (np.asarray( i.resize(min_shape_triangles) ) for i in imgs_triangles ) )
+imgs_comb_triangles = np.vstack( tuple(np.asarray( i.resize(min_shape_triangles) ) for i in imgs_triangles ) )
 imgs_comb_triangles = PIL.Image.fromarray( imgs_comb_triangles)
-imgs_comb_squares = np.vstack( (np.asarray( i.resize(min_shape_squares) ) for i in imgs_squares ) )
+imgs_comb_squares = np.vstack( tuple(np.asarray( i.resize(min_shape_squares) ) for i in imgs_squares ) )
 imgs_comb_squares = PIL.Image.fromarray( imgs_comb_squares)
 
 # Here I'm creating a temporary folder to store output assets. 
@@ -184,7 +184,7 @@ imgs_composition    = [ PIL.Image.open(i) for i in list_im_composition ]
 min_shape_composition = sorted( [(np.sum(i.size), i.size ) for i in imgs_composition])[0][1]
 
 # here I'm doing a horizontal stacking composition in its simple way, using hstack
-imgs_comb_composition = np.hstack( (np.asarray( i.resize(min_shape_composition) ) for i in imgs_composition ) )
+imgs_comb_composition = np.hstack( tuple(np.asarray( i.resize(min_shape_composition) ) for i in imgs_composition ) )
 
 # here I'm saving the horizontal composition of the triangle, circle vertical compositions and square vertical composition.
 imgs_comb_composition = PIL.Image.fromarray( imgs_comb_composition)
