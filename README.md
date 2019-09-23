@@ -8,13 +8,13 @@
 
 The objective for this release is to address the fundamental principle of Gestalt Laws of Perception - the law of Prägnanz - focusing on understanding and applying the Laws of **Proximity**, **Similarity** and **Good Gestalt**.
 
-The law of proximity states that when an individual perceives an assortment of objects they perceive objects that are close to each other as forming a **group**. For now, we'll only be addressing the composition of this group perception on a **vertical stack**. 
+The law of proximity states that when an individual perceives an assortment of objects they perceive objects that are close to each other as forming a **group**. For now, we'll only be addressing the composition of this group perception on a **vertical stack**.
 
 The law of similarity states that elements within an assortment of objects are perceptually grouped together if they are **similar to each other**. For now we'll only be addressing when perception occurs in the form of **shape**.
 
 The law of good gestalt explains that elements of objects tend to be perceptually grouped together if they form a pattern that is regular, simple, and orderly. For now we'll only be adressing this perception on a **horizontal stack** of the **vertical stack** composition.
 
-> The birth of {d}ali will be grounded on the undertsanding of the purest expression of primitive visual artifacts: circles, triangles and squares. 
+> The birth of {d}ali will be grounded on the undertsanding of the purest expression of primitive visual artifacts: circles, triangles and squares.
 
 ---
 
@@ -32,13 +32,13 @@ For this release, I'm getting the geometric shapes with an adaptation of [OpenCV
 
 The objective of this module is to **eliminate complexity and unfamiliarity** so we can obtain an output in its most simplistic form. Eliminating extraneous stimuli helps our minds creating meaning. This meaning created by perception implies a global regularity, which is often mentally prioritized over spatial relations. The visual translation of every group of shapes composition implies the ideas of salience, conciseness and orderliness.
 
-> For now, this module it's based on the vertical stack of similar shape groups, which is pretty much immature. I welcome the work there is to be done, time and time again. 
+> For now, this module it's based on the vertical stack of similar shape groups, which is pretty much immature. I welcome the work there is to be done, time and time again.
 
 #### Module Three
 
-The objective of this module is an attempt to understand the laws behind the ability to **acquire and maintain meaningful perceptions** in an apparently chaotic world. Based on the input from Module One and Module Two, this third module should decrease the effort of the perception of simplicity in the midst of the compositions of several and diverse objects and increase the ability to recognize order.  
+The objective of this module is an attempt to understand the laws behind the ability to **acquire and maintain meaningful perceptions** in an apparently chaotic world. Based on the input from Module One and Module Two, this third module should decrease the effort of the perception of simplicity in the midst of the compositions of several and diverse objects and increase the ability to recognize order.
 
-> For now, this module it's based on the horizontal stack of the vertical stack of similar shape groups, which is pretty much immature. I welcome the work there is to be done, time and time again. 
+> For now, this module it's based on the horizontal stack of the vertical stack of similar shape groups, which is pretty much immature. I welcome the work there is to be done, time and time again.
 
 ---
 
@@ -48,81 +48,33 @@ The objective of this module is an attempt to understand the laws behind the abi
 
 The recommended way to install **{d}ali** is:
 
-1) Install Homebrew
+1. Install Homebrew
 
-```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+To install or upgrade Homebrew, read the instructions from the [oficial site](https://brew.sh).
 
-Once you’ve installed Homebrew, insert the Homebrew directory at the top of your PATH environment variable. You can do this by adding the following line at the bottom of your ~/.profile file
+2. Install Python 3
 
-```
-	export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-```
+To install or upgrade Python 3, read the instructions from the [oficial site](https://www.python.org/).
 
-2) Install Python 3
+3. Install PIP
 
-```
-$ brew install python3
-```
+To install or upgrade pip, read the instructions from the [oficial site](https://pip.pypa.io/en/stable/installing/).
 
-3) Install PIP
+4. Install numpy
 
-To install or upgrade pip, download get-pip.py from the [oficial site](https://pip.pypa.io/en/latest/installing/). Then run the following command:
+To install or upgrade numpy, read the instructions from the [oficial site](https://scipy.org/install.html/).
 
-```
-$ python3 get-pip.py --user 
-```
+5. Install OpenCV
 
-The next step is to install Pipenv, so you can install dependencies and manage virtual environments. Read the [Pipenv & Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref) docs. 
+To install or upgrade OpenCV, read the instructions from the [oficial site](https://pypi.org/project/opencv-python/).
 
-```
-$ python3 -m pipenv
-```
+5. Install opencv_contrib Module
 
-4) Install numpy
+To install or upgrade opencv_contrib Module, read the instructions from the [oficial site](https://pypi.org/project/opencv-contrib-python/).
 
-```
-$ pip3 install numpy
-```
+6. Install imutils
 
-5) Install opencv
-
-```
-$ git clone https://github.com/Itseez/opencv.git
-```
-
-```
-$ cd opencv
-```
-
-```
-$ git checkout 3.3.0
-```
-
-Please be aware of the lastest version, on the [oficial site](https://opencv.org/).
-
-5) Install opencv_contrib Module
-
-```
-$ git clone https://github.com/Itseez/opencv_contrib
-```
-
-```
-$ cd opencv_contrib
-```
-
-```
-$ git checkout 3.3.0
-```
-
-Please be aware of the lastest version, on the [oficial site](https://github.com/opencv/opencv_contrib/releases).
-
-6) Install imutils
-
-```
-$ pip install imutils
-```
+To install or upgrade imutils, read the instructions from the [oficial site](https://pypi.org/project/imutils/).
 
 ---
 
