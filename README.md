@@ -62,17 +62,17 @@ To install or upgrade pip, read the instructions from the [oficial site](https:/
 
 4. Install numpy
 
-To install or upgrade numpy, read the instructions from the [oficial site](https://scipy.org/install.html/).
+To install or upgrade numpy, read the instructions from the [oficial site](https://numpy.org/).
 
 5. Install OpenCV
 
 To install or upgrade OpenCV, read the instructions from the [oficial site](https://pypi.org/project/opencv-python/).
 
-5. Install opencv_contrib Module
+6. Install opencv_contrib Module
 
 To install or upgrade opencv_contrib Module, read the instructions from the [oficial site](https://pypi.org/project/opencv-contrib-python/).
 
-6. Install imutils
+7. Install imutils
 
 To install or upgrade imutils, read the instructions from the [oficial site](https://pypi.org/project/imutils/).
 
@@ -83,6 +83,10 @@ To install or upgrade imutils, read the instructions from the [oficial site](htt
 ```
 $ python3 main.py
 ```
+
+---
+
+![{d}ali](assets/{d}ali-creation.png)
 
 ---
 
